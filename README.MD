@@ -1,9 +1,9 @@
 ## ContactPicker
 Beautiful, lightweight contact picker for android
 
-![Contact List](https://github.com/adigunhammedolalekan/contactpicker/blob/master/art/s2.png =200x200)
+![Contact List](https://github.com/adigunhammedolalekan/contactpicker/blob/master/art/s2.png)
 
-![Filtered](https://github.com/adigunhammedolalekan/contactpicker/blob/master/art/s1.png =720x1280)
+![Filtered](https://github.com/adigunhammedolalekan/contactpicker/blob/master/art/s1.png)
 
 
 ### Why?
