@@ -49,7 +49,7 @@ class FetchContactTask(val context: Context?, callback: (ArrayList<Contact>) -> 
 
                 val contact = Contact()
                 contact.name = cursor.getString(nameIdx)
-                contact.phone = cursor.getString(photoIndex)
+                contact.photo = cursor.getString(photoIndex)
                 contactMap.put(cursor.getString(idIndex), contact)
             }while (cursor.moveToNext())
         }

@@ -56,7 +56,6 @@ class ContactPickerActivity : AppCompatActivity() {
 
             contactsData.clear()
             data.forEach {
-                Log.d("CP", it.photo)
                 contactsData.add(it)
             }
 
@@ -119,7 +118,6 @@ class ContactPickerActivity : AppCompatActivity() {
         if (requestCode == PERMISSION_REQUEST_CODE && grantResults.size > 0) {
 
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-
                 fetchContacts()
             }else {
                 Toast.makeText(this, "Permission Denied", Toast.LENGTH_LONG).show()
