@@ -31,7 +31,7 @@ class MainActivity : AppCompactActivity() {
 		super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_main)
 
-        ContactPicker.open(this)
+        ContactPicker.open(this) //or ContactPicker.open(this, 10) to use custom REQUEST_CODE
 	}
 
 	//
@@ -76,7 +76,7 @@ class MainFragment : Fragment() {
 }
 ```
 
-NOTE: Make sure you specify `ContactActivity.java` theme inside your `AndroidManifest.xml` to be a `NoActionbar` theme, e.g 
+NOTE: Make sure you specify `ContactPickerActivity.java` theme inside your `AndroidManifest.xml` to be a `NoActionbar` theme, e.g 
 
 `
 <activity android:name="cp.lib.cp.ui.ContactPickerActivity" android:theme="@style/AppTheme.NoActionBar"/>
@@ -99,4 +99,8 @@ Where `AppTheme.NoAction` is defined like this
     </style>
 ```
 
-Namaste!
+#### TODO
+* Add multi picker feature
+
+-:)
+$_
